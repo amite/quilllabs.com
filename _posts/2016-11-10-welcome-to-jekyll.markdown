@@ -1,6 +1,6 @@
 ---
 title: Welcome to Quill Labs!
-date: '2016-11-10 14:59:46'
+date: '2016-11-10 00:00:00'
 layout: post
 categories:
 - jekyll update
