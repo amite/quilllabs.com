@@ -1,5 +1,5 @@
 ---
 title: This is quilllabs.com
-layout: home
+layout: default
 ---
 This is quilllabs.com. This is a website.
