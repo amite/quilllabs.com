@@ -1,6 +1,7 @@
 ---
 title: This is quilllabs.com
 layout: home
-category: static
+categories:
+- static
 ---
 This is quilllabs.com
