@@ -29,6 +29,15 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      thumbnail: ""
+      categories: []
+      description: ""
 exclude:
   - Gemfile
   - Gemfile.lock
+
