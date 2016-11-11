@@ -1,8 +1,11 @@
 ---
 title: This is quilllabs.com
 layout: home
-category: static
 color: red
----
+categories:
+- static
+- dynamic
+- landing
+
 
 This is quilllabs.com
