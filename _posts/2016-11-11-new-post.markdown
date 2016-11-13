@@ -5,10 +5,10 @@ layout: workshop
 postImage: ''
 categories:
 - workshops
-startDate: 20th December
-endDate: 21st December
+startDate: '2016-11-30 00:00:00'
+endDate: '2016-12-01 00:00:00'
 startTime: '10:00:00'
-endTime: '18:00:00'
+endTime: '2016-12-02 00:00:00'
 presenters: Saurabh Suman
 slug: ui-ux-workshop
 excerpt: |-
