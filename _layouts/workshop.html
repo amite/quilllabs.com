@@ -1,17 +1,145 @@
 ---
 layout: default
 ---
-<article class="post">
+  <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    <h3>Workshop starts on {{ page.startDate }}</h3>
-    <hr>
-  </header>
+    <header class="workshop-header">
+      <h1 class="workshop-title">{{ page.title | escape }}</h1>
+      <h3 class="workshop-subtitle">Workshop starts on {{ page.startDate | date: "%b %-d, %Y"  }}</h3>
+    </header>
+  </article>
+</div> <!-- end wrapper -->
 
-  <div class="post-content">
-    {{ page.excerpt | markdownify }}
+  <img class="wk-banner" src="{{ page.img }}" alt=""> 
+  
+<div class="wrapper">
+  <div class="workshop-content">
+    <div class="excerpt">
+      
+      <div class="wk-excerpt">
+        {{ page.excerpt | markdownify }}
+      </div>
+    </div>
+    
     {{ content }}
-  </div>
 
-</article>
+    <div class="wk-schedule">
+      <ul class="main">
+  <li class="date">
+    <h3>Dec 18</h3>
+    <p>Schedule of Events</p>
+  </li>
+  <li class= "events">
+    <ul class="events-detail">
+      <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+       
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+    </ul>  
+    
+  
+  </li>
+         
+  
+  
+    <li class="date">
+    <h3>Dec 19</h3>
+    <p>Schedule of Events</p>
+  </li>
+  <li class= "events cf">
+    <ul class="events-detail">
+      <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+       
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+      
+       <li>
+        <a href="#">
+          <span class="event-time">2:00pm - </span>
+          <span class="event-name">Kickoff Ceremony</span>
+          <br />
+          <span class="event-location">Headquarters</span>
+        </a>
+      </li>
+    </ul>  
+    
+  
+  </li>
+         
+</ul>  
+    </div>
+  </div>
+</div><!-- end wrapper -->
+
+

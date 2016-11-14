@@ -9,13 +9,19 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for workshop in site.workshops %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ workshop.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ workshop.url | relative_url }}">{{ workshop.title | escape }}</a>
         </h2>
+        <p class="wk-presenters">
+          Conducted by
+          {% for presenter in workshop.presenters %}
+            <span class="wk-presenter">{{ presenter }}</span>
+          {% endfor %}
+        </p>  
       </li>
     {% endfor %}
   </ul>

@@ -37,6 +37,11 @@ defaults:
       thumbnail: ""
       categories: []
       description: ""
+collections:
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+
 exclude:
   - Gemfile
   - Gemfile.lock
